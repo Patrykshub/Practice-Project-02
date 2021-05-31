@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <AddUser onAddUser={addUserHandler} />
-      <UsersList uzytkownicy={usersList} />
+      <UsersList users={usersList} />
     </div>
   );
 }
